@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D2C7FDA3-011D-4926-9E27-8276B0F4B0FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CF3C3932-9FA5-496D-808B-9993F974E685}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{AE3AB811-5FDE-4763-968C-AEAE94FCF61D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6F788580-46AD-4DFD-A829-01403C8F718F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlumGuide.RoverManagement.Console", "PlumGuide.RoverManagement.Console\PlumGuide.RoverManagement.Console.csproj", "{A065257D-517E-4200-A59D-51DE06D96FD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlumGuide.RoverManagement.Application", "PlumGuide.RoverManagement.Application\PlumGuide.RoverManagement.Application.csproj", "{F3967633-434B-463B-BBDB-8D513B0C7F4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlumGuide.RoverManagement.Contracts", "PlumGuide.RoverManagement.Contracts\PlumGuide.RoverManagement.Contracts.csproj", "{C5284DA5-FC80-4F20-9544-EB9657C96836}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlumGuide.RoverManagement.UnitTests", "PlumGuide.RoverManagement.UnitTests\PlumGuide.RoverManagement.UnitTests.csproj", "{3D559659-8EE9-4040-A2DC-34FDA4D95CA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A065257D-517E-4200-A59D-51DE06D96FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A065257D-517E-4200-A59D-51DE06D96FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A065257D-517E-4200-A59D-51DE06D96FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A065257D-517E-4200-A59D-51DE06D96FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3967633-434B-463B-BBDB-8D513B0C7F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3967633-434B-463B-BBDB-8D513B0C7F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3967633-434B-463B-BBDB-8D513B0C7F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3967633-434B-463B-BBDB-8D513B0C7F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5284DA5-FC80-4F20-9544-EB9657C96836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5284DA5-FC80-4F20-9544-EB9657C96836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5284DA5-FC80-4F20-9544-EB9657C96836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5284DA5-FC80-4F20-9544-EB9657C96836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D559659-8EE9-4040-A2DC-34FDA4D95CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D559659-8EE9-4040-A2DC-34FDA4D95CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D559659-8EE9-4040-A2DC-34FDA4D95CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D559659-8EE9-4040-A2DC-34FDA4D95CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE3AB811-5FDE-4763-968C-AEAE94FCF61D} = {D2C7FDA3-011D-4926-9E27-8276B0F4B0FF}
+		{6F788580-46AD-4DFD-A829-01403C8F718F} = {D2C7FDA3-011D-4926-9E27-8276B0F4B0FF}
+		{A065257D-517E-4200-A59D-51DE06D96FD9} = {AE3AB811-5FDE-4763-968C-AEAE94FCF61D}
+		{F3967633-434B-463B-BBDB-8D513B0C7F4E} = {6F788580-46AD-4DFD-A829-01403C8F718F}
+		{C5284DA5-FC80-4F20-9544-EB9657C96836} = {6F788580-46AD-4DFD-A829-01403C8F718F}
+		{3D559659-8EE9-4040-A2DC-34FDA4D95CA4} = {CF3C3932-9FA5-496D-808B-9993F974E685}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C2E042-D88A-45EB-8611-1D5F7CF7C0C0}
+	EndGlobalSection
+EndGlobal
