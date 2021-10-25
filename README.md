@@ -50,9 +50,9 @@ Project structure is following:
 - PlumGuide.RoverManagement.UnitTests (This project contains tests that verify behaviour of whole app)
 
 Code is divided into folders to make boundaries clearer:
-- Commands (enable rover to move forwards, backwards, left and right)
-- Controllers (enable rover to execute commands)
-- Entities (building block of the app)
-- Factories (enable creation of correct commands)
-- Runners (execute sequence of commands)
-- Validators (validate input from the user)
+- Commands (IMoveCommand and IRotateCommand are marker interfaces that help recognise the command like MoveForwardsCommand, MoveBackwardsCommand, RotateRightCommand, RotateLeftCommand)
+- Controllers (e.g. RoverController executes commands and exposes current position of the rover)
+- Entities (building block of the app. Main entities are: Planet, Coordinates, Position, CompassDirection)
+- Factories (e.g. CommandFactory enables creation of correct commands)
+- Runners (e.g. CommandRunner executes sequence of commands that is entered by user)
+- Validators (e.g. CommandValidator validates input from the user. If validation is not successful user is warned that he needs to enter a valid command)
